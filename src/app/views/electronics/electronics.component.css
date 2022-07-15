@@ -1,0 +1,24 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+/* .row{
+    width: 100%;
+    background-color: brown;
+} */
+
+
+
+.product-card{
+    background-color: aqua;
+    width: 260px;
+    height: 340px;
+    margin: 10px;
+}

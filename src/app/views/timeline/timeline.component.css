@@ -1,0 +1,66 @@
+.wrapper {
+
+    height: fit-content;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+
+.container {
+    width: 90%;
+}
+
+#myCarousel {
+    margin-top: 30px;
+
+}
+
+
+.shop-by-cat {
+    /* text-align: center; */
+      /* margin-top: 15px; */
+      display: flex;
+      align-items: center;
+      padding: 7px;
+      justify-content: center;
+}
+
+.cat-banner {
+    height: 330px;
+    width: 330px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.cat-banner:hover{
+    filter:brightness(0.7);
+}
+
+
+.heading {
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+
+
+.cat-heading {
+    
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 32px;
+    position: relative;
+    top: -214px;
+    text-align: center;
+
+}
+
+.cat-section{
+    text-align: center;
+}
+
+
+
+
+
