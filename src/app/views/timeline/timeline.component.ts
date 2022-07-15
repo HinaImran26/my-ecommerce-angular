@@ -8,11 +8,14 @@ import { AllProductsService } from 'src/app/services/all-products.service';
 })
 export class TimelineComponent implements OnInit {
 
+products:any;
+
   constructor(private _allproducts: AllProductsService) { }
 
   ngOnInit(): void {
   
-  console.log(this._allproducts.get_all_products());
+    this.products=this._allproducts.get_all_products()
+  console.log("data in timeline via service", this.products);
   
   
   
